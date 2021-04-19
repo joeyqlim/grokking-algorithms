@@ -17,5 +17,3 @@ O(n)
 1.6:
 O(n)
 Constants are ignored in Big O notation
-
-# Check out binary search trees!
