@@ -86,3 +86,46 @@
   2. Involves a sequence or a set
   3. Can be restated as the 'traveling salesman' or 'set-covering' problem
   4. Runs quickly with few items but really slowly with more items
+
+# Dynamic programming
+
+- Problem can be broken into different subproblems
+- Involves a grid where each cell is a subproblem
+
+## Longest common substring
+
+|     | C   | L   | U   | E   | S   |
+| --- | --- | --- | --- | --- | --- |
+| B   | 0   | 0   | 0   | 0   | 0   |
+| L   | 0   | 1   | 0   | 0   | 0   |
+| U   | 0   | 0   | 2   | 0   | 0   |
+| E   | 0   | 0   | 0   | 3   | 0   |
+
+## Longest common subsequence
+
+|     | F   | I   | S   | H   |
+| --- | --- | --- | --- | --- |
+| F   | 1   | 1   | 1   | 1   |
+| O   | 1   | 1   | 1   | 1   |
+| S   | 1   | 1   | 2   | 2   |
+| H   | 1   | 1   | 2   | 3   |
+
+# K-nearest neighbours
+
+- Used for classification and regression
+- Graph elements based on features and look at k number of nearest neighbours based on distance or cosine similarity
+- Machine learning applications like Netflix recommendations, OCR, spam filters
+- Rule of thumb: look at sqrt(k) for k number of users/elements
+
+# 10 more algorithms to explore
+
+1. Trees, B-trees, red-black trees, heaps, splay trees
+2. Inverted indexes
+3. Fourier transform
+4. Parallel algorithms
+5. MapReduce
+6. Bloom filters and HyperLogLog
+7. Secure hash algorithm function
+8. Locality-sensitive hashing
+9. Diffie-Hellman key exchange
+10. Linear programming
